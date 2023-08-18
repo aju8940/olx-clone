@@ -1,0 +1,66 @@
+.mini-section p{
+    font-size: 12px;
+    line-height: 10px;
+    color: #002f34;
+    overflow: hidden;
+}
+.mini-section h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.top-content{
+    margin-top: 30px;
+}
+.btm-icon{
+    width: 80px;
+    margin: 5px;
+}
+.bottom-content{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+.main-footer{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #f7f8f9;
+}
+.left-section{
+    padding: 10px;
+}
+.inner-div{
+    margin-left: 200px;
+}
+.top-content h6{
+    overflow: hidden;
+}
+.copy-right{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    background-color: #002f34;
+    color: #fff;
+}
+.full-width{
+    background-color: #002f34;
+}
+.copy-right p{
+    font-size: 10px;
+    line-height: 8px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+    .left-section {
+      display: none;
+    }
+    .top-content{
+        margin: 10px;
+    }
+    .bottom-content{
+        padding-top: 20px;
+        position: relative;
+    }
+  }

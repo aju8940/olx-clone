@@ -1,0 +1,50 @@
+.main-section{
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-y: hidden;
+}
+.border-section{
+    width: 500px;
+    margin-top: 8em;
+    margin-bottom: 50px;
+}
+.sub-section{
+    border: 1px solid #999;
+    margin-bottom: 3px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-y: hidden;
+}
+.sub-section h5{
+    overflow-y: hidden;
+}
+.sub-section input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 5px;
+    overflow-y: hidden;
+}
+.form-btn{
+    width: 80px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #999;
+    font-weight: 600;
+}
+.main-heading{
+    margin-bottom: 20px;
+    text-align: center;
+    overflow-y: hidden;
+}
+@media only screen and (max-width: 700px) {
+    .border-section{
+        width: 350px;
+    }
+  }

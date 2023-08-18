@@ -1,0 +1,49 @@
+.container2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.nav-bar{
+    margin-top: 5.5em;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.list{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.category{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.list span{
+    font-size: 14px;
+    line-height: 16.1px;
+}
+.category span{
+    font-weight: 600;
+    margin-right: 5px;
+}
+.banner-img{
+    background: url("https://statics.olx.in/olxin/banners/hero_bg_in_v5@1x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 135px;
+    width: 100vw;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+    .list {
+      display: none;
+    }
+    .banner-img {
+      position: relative;
+    }
+  }

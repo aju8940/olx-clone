@@ -1,0 +1,94 @@
+.view-main{
+    margin-top: 10em;
+    margin-bottom: 100px;
+    background-color: #eff1f3;
+}
+.full-page{
+    background-color: #eff1f3;
+}
+.large-image{
+    width: 600px;
+}
+.small-image{
+    width: 80px;
+}
+.right-section-view{
+    background-color: #eff1f3;
+}
+.large-image-holder{
+    width: 800px;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section-view{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.view-price{
+    font-size: 34px;
+    line-height: 32px;
+    color: #002f34;
+}
+.view-title{
+    font-size: 16px;
+    line-height: 24px;
+    color: #406367;
+}
+.view-address{
+    font-size: 12px;
+    line-height: 20px;
+    color: #406367;
+    justify-content: space-between;
+}
+.view-right-top{
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.view-right-bottom{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.view-user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: azure;
+}
+.view-user-content{
+    align-items: center;
+}
+.view-username{
+    padding-left: 15px;
+}
+.chat-btn{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #002f34;
+}
+.view-sub-content{
+    border-radius: 8px;
+    background-color: #fff;
+}
+.view-brand p{
+    padding-right: 80px;
+}
+
+@media only screen and (max-width: 700px) {
+    .right-section-view{
+        margin-top: 30px;
+    }
+  }
